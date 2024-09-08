@@ -1,0 +1,43 @@
+a { text-decoration:none; color:#000000; transition: all 0.6s ease-in-out; }
+ 
+a:hover { color:#f8f8f8; transition:all 0.6s ease-in-out; }
+
+/*----- 【 MUSIC PLAYER #08 by @glenthemes 】 -----*/
+[glenplayer08]{
+	
+	/*-- player position --*/
+	--MusicPlayer-Position: "custom" ;
+	--MusicPlayer-Corner-Offset: 70px;
+	
+	/*-- album image --*/
+	--MusicPlayer-Album-Image-Size: 90px;
+	--MusicPlayer-Album-Image-Corner-Roundness: 8px;
+	
+	/*-- player buttons (play/pause) --*/
+	--MusicPlayer-Buttons-Size: 12px;
+	--MusicPlayer-Buttons-Color: #ddd;
+	--MusicPlayer-Buttons-Padding: 8px;
+	--MusicPlayer-Buttons-Border-Size: 1px;
+	--MusicPlayer-Buttons-Border-Color: #bbb;
+	--MusicPlayer-Buttons-Background: #000000;
+	--MusicPlayer-Buttons-Background-Transparency: 45%;
+	--MusicPlayer-Buttons-Background-Blur: 3px;
+	
+	/*-- player song name --*/
+	--MusicPlayer-Song-Name-Size: 8px;
+	--MusicPlayer-Song-Name-Color: #c2c2c2;
+	
+	/*-- player artist name --*/
+	--MusicPlayer-Artist-Name-Size: 9px;
+	--MusicPlayer-Artist-Name-Color: #777;
+	
+	/*-- player gap/spacing --*/
+	--MusicPlayer-Center-Gap: 6px;
+	--MusicPlayer-Text-Line-Spacing: -50px;
+	
+	/*-- playback settings --*/
+	--MusicPlayer-Autoplay: "no";
+	--MusicPlayer-Replay: "no";
+	
+/* don't delete this line */
+/*---- END MUSIC PLAYER ----*/
